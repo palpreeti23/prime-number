@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Bree+Serif&family=DynaPuff&family=Lobster&display=swap');
+
+
+body{
+    font-family: 'Acme', sans-serif;
+    background-color: #dbeafe;
+    
+}
+.container{
+   
+    text-align: center;
+    width: 60%;
+    height: 30rem;
+    background-image: url("https://cdn.wallpapersafari.com/94/59/tEw7kc.jpg");
+    margin: auto;
+    
+}
+
+.header{
+
+   padding : 2rem;
+   margin-top : 5rem;
+
+}
+
+#input-btn{
+
+    border:  solid ;
+    padding: .5rem;
+    width: 50%;
+    font-size: 1.3rem;
+    border-radius: .4rem;
+    font-family: 'Acme', sans-serif;
+}
+#check-btn{
+
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2rem;
+    padding: .5rem;
+    width: 24%;
+    font-size: 1.3rem;
+    border:  solid ;
+    border-radius: .4rem;
+    font-family: 'Acme', sans-serif;
+}
+#output-div{
+
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+   
+}
+
+
+/* @media only screen and ( max-width : 768px){
+    html{
+       width: 100%;
+       font-size: 85%; 
+    
+    }
+
+   
+} */
