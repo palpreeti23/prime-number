@@ -16,11 +16,11 @@ function checkPrimeNumber(num){
     factor = 0 ;
     }
     if(factor){
-      outputDiv.innerText = "this number is a prime"
+      outputDiv.innerText = "this number is a prime number"
     }
     else
     {
-      outputDiv.innerText = "this number is not a prime"
+      outputDiv.innerText = "this number is not a prime number"
     }
   }
   else{
