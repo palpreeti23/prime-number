@@ -7,7 +7,7 @@ body{
     
 }
 .container{
-   
+
     text-align: center;
     width: 60%;
     height: 30rem;
@@ -23,8 +23,16 @@ body{
 
 }
 
-#input-btn{
+.label-for-input{
 
+    display: block;
+    font-size: 1.4rem;
+    margin: auto;
+    text-align: center;
+
+}
+#input-btn{
+ 
     border:  solid ;
     padding: .5rem;
     width: 50%;
