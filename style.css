@@ -4,16 +4,19 @@
 body{
     font-family: 'Acme', sans-serif;
     background-color: #dbeafe;
+    max-width: 30rem;
+    margin: auto;
     
 }
 .container{
 
     text-align: center;
-    width: 60%;
+    width: 100%;
     height: 30rem;
     background-image: url("https://cdn.wallpapersafari.com/94/59/tEw7kc.jpg");
-    margin: auto;
-    
+    border-radius: 1rem;
+    box-shadow: 7px 8px #93c5fd;
+   
 }
 
 .header{
@@ -61,12 +64,12 @@ body{
 }
 
 
-/* @media only screen and ( max-width : 768px){
+  @media only screen and (width : 768px){
     html{
-       width: 100%;
-       font-size: 85%; 
+
+       width: 85%;
     
     }
 
    
-} */
+} 
